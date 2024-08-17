@@ -3,15 +3,430 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Helyfly</title>
   </head>
-  <body>
-    <header></header>
-    <main>
-      <section>
-        
+  <body class="root">
+    <header class="header">
+      <div class="header__logo"></div>
+      <p class="header__text"><span>Телефон:</span>8(800)-123-12-12</p>
+    </header>
+    <main class="main">
+      <section class="helicopter">
+        <img
+          class="helicopter__image"
+          alt="изображение вертолета"
+          src="./img/helimain.png"
+        />
+        <div class="helicopter__text-block">
+          <h1 class="helicopter__title">
+            Эксклюзивная <span>фотосессия </span>при полете на вертолете
+          </h1>
+          <div class="helicopter__price-block">
+            <p class="helicopter__price-text">Стоимость:<span>1500₽</span></p>
+            <img
+              src="./img/icons8-percentage-48.png"
+              alt="знак процента"
+              class="helicopter__price-image"
+            />
+          </div>
+          <button class="helicopter__btn">Забронировать место</button>
+        </div>
+      </section>
+      <section class="description">
+        <div class="description__text-block">
+          <h1 class="description__title">Фотосессия в вертолете</h1>
+          <p class="description__subtitle">
+            Полет на вертолете это прекрасная возможность получить новые
+            ощущения! А наш замечательный фотограф запечатлит лучшие моменты
+          </p>
+          <p class="description__text">
+            <img
+              class="desciption__icon"
+              src="./img/hour_icon.svg"
+              alt="иконка часов"
+            />
+            3 часа съемки
+          </p>
+          <p class="description__text">
+            <img
+              class="desciption__icon"
+              src="./img/polaroid.svg"
+              alt="иконка фотоаппарата"
+            />
+            Более 50 фотографий
+          </p>
+          <p class="description__text">
+            <img
+              class="desciption__icon"
+              src="./img/map-pin-marked.svg"
+              alt="иконка карты"
+            />
+            Москва
+          </p>
+          <p class="description__text">
+            <img
+              class="desciption__icon"
+              src="./img/speech-bubble.svg"
+              alt="иконка чата"
+            />
+            Готовы ответить на любые вопросы
+          </p>
+        </div>
+        <img
+          class="description__img"
+          src="./img/desciption_img.png"
+          alt="изображение влюбленных"
+        />
+        <p class="description__text-last">
+          <img
+            class="desciption__icon"
+            src="./img/cup.svg"
+            alt="иконка кубка"
+          />
+          Более <strong>50</strong> отзывов с оценкой
+          <img
+            class="desciption__icon-last"
+            src="./img/stars.svg"
+            alt="иконка звезд"
+          />
+        </p>
+      </section>
+      <section class="photo">
+        <p class="photo__subtitle">Фотографии пакета:</p>
+
+        <div class="photo__grid">
+          <img
+            class="photo__img"
+            src="./img/photo_1.png"
+            alt="фотография девушки"
+          />
+          <img
+            class="photo__img"
+            src="./img/photo_2.png"
+            alt="фотография вид из вертолета"
+          />
+          <img
+            class="photo__img"
+            src="./img/desciption_img.png"
+            alt="фотография влюбленных"
+          />
+          <img
+            class="photo__img"
+            src="./img/photo_3.png"
+            alt="фотография вертолета"
+          />
+          <img
+            class="photo__img"
+            src="./img/desciption_img.png"
+            alt="фотография влюбленных"
+          />
+          <img
+            class="photo__img"
+            src="./img/photo_3.png"
+            alt="фотография вертолета"
+          />
+          <img
+            class="photo__img"
+            src="./img/photo_1.png"
+            alt="фотография девушки"
+          />
+          <img
+            class="photo__img"
+            src="./img/photo_2.png"
+            alt="фотография вид из вертолета"
+          />
+        </div>
+        <div class="photo__container">
+          <img
+            class="photo__img-link"
+            src="./img/arrow_grey.svg"
+            alt="изображение стрелки"
+          />
+          <a class="photo__link">Показать все фото</a>
+          <img
+            class="photo__img-link"
+            src="./img/arrow_grey.svg"
+            alt="изображение стрелки"
+          />
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__text">
+          <h2 class="about__title">Об организаторе:</h2>
+          <p class="about__subtitle">
+            Всем привет! Я фотограф Мария! И по мимо фотосъемки я так же являюсь
+            членом группы экспертов туристической отрасли, которые хорошо
+            разбираются в маркетинге, операциях и услугах обслуживания клиентов,
+            специализирующихся на совместном использовании и частных турах.
+          </p>
+          <p class="about__subtitle about__subtitle-br">
+            Сначала мы (я и моя команда) изучаем интересы клиентов, а затем
+            придумываем подходящее решение, которое соответствует бюджету и
+            планам клиента. Мы никогда не зависим от субпоставщиков и не
+            свяжемся…
+          </p>
+
+          <a class="photo__link"
+            >Читать еще
+            <img
+              class="photo__img-link"
+              src="./img/arrow_grey.svg"
+              alt="изображение стрелки"
+          /></a>
+
+          <h2 class="about__title about__title-last">Что я предоставлю:</h2>
+          <p class="about__subtitle">
+            Встречу вас на машине после длительного перелёта. Качественный
+            подбор места и локации для вашей съемки. При необходимости всегда
+            возможно прерваться на обед/ужин. Более 50 фотографий на выходе с
+            обработкой и замечательные впечатления о Дубае !
+          </p>
+          <a class="photo__link"
+            >Читать еще
+            <img
+              class="photo__img-link"
+              src="./img/arrow_grey.svg"
+              alt="изображение стрелки"
+          /></a>
+        </div>
+        <div class="about__profile">
+          <img
+            class="about__img-heart"
+            src="./img/Vectorheart.svg"
+            alt="изображение сердца"
+          />
+          <img
+            class="about__img"
+            src="./img/avatar.png"
+            alt="фото организатора"
+          />
+          <p class="about__subtitle-name">Марина Иванова</p>
+          <p class="about__subtitle-prof">Фотограф</p>
+          <a class="about__link">Показать больше информации о фотографе</a>
+        </div>
+      </section>
+      <section class="working-hours">
+        <h2 class="working-hours__title">
+          Доступная съемка в ближайшее время:
+        </h2>
+        <div class="working-hours__card">
+          <div class="working-hours__flex">
+            <p class="working-hours__subtitle">Пятница, 14 сентября</p>
+            <img src="./img/Calendar.svg" alt="иконка календаря" />
+          </div>
+          <div class="working-hours__flex working-hours__flex_between">
+            <div class="working-hours__flex working-hours__flex_column">
+              <p class="working-hours__subtitle">15:00 - 18:00</p>
+              <p class="working-hours__subtitle">1500₽</p>
+              <p class="working-hours__subtitle">Осталось — 1 место</p>
+            </div>
+            <button class="working-hours__btn">Выбрать</button>
+          </div>
+          <div class="working-hours__flex working-hours__flex_between">
+            <div class="working-hours__flex working-hours__flex_column">
+              <p class="working-hours__subtitle">19:00 - 22:00</p>
+              <p class="working-hours__subtitle">1500₽</p>
+              <p class="working-hours__subtitle">Осталось — 1 место</p>
+            </div>
+            <button class="working-hours__btn">Выбрать</button>
+          </div>
+          <p class="description__text-last">
+            <img
+              class="desciption__icon"
+              src="./img/cup.svg"
+              alt="иконка кубка"
+            />
+            Более <strong>50</strong> отзывов с оценкой
+            <img
+              class="desciption__icon-last"
+              src="./img/stars.svg"
+              alt="иконка звезд"
+            />
+          </p>
+        </div>
+      </section>
+      <section class="map">
+        <div class="map__img">
+          <div class="map__card">
+            <div class="map__flex-row">
+              <img
+                class="map__icon"
+                src="./img/1.svg"
+                alt="изображение цифры один"
+              />
+              <div>
+                <p class="map__subtitle">Где встречаемся?</p>
+                <p class="map__subtitle">Москва</p>
+              </div>
+            </div>
+            <div class="map__flex-row">
+              <img
+                class="map__icon"
+                src="./img/2.svg"
+                alt="изображение цифры два"
+              />
+              <div>
+                <p class="map__subtitle">Время съемки</p>
+                <p class="map__subtitle">3 часа</p>
+              </div>
+            </div>
+            <div class="map__flex-row">
+              <img
+                class="map__icon"
+                src="./img/3.svg"
+                alt="изображение цифры три"
+              />
+              <div>
+                <p class="map__subtitle">Мест осталось</p>
+                <p class="map__subtitle">2 места</p>
+              </div>
+            </div>
+            <div class="map__flex-row">
+              <img
+                class="about__img"
+                src="./img/avatar.png"
+                alt="фото организатора"
+              />
+              <div>
+                <p class="about__subtitle-name map__subtitle">Марина Иванова</p>
+                <p class="about__subtitle-prof map__subtitle">Фотограф</p>
+                <a class="about__link"
+                  >Показать больше информации о фотографе</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="review">
+        <h2 class="review__title">Отзывы:</h2>
+        <div class="review__card">
+          <img class="review__img" src="./img/review_1.png" alt="аватар" />
+          <div>
+            <p class="review__subtitle">Валерия Антонова</p>
+            <p class="review__subtitle">Арт-директор</p>
+            <div class="review__flex-row">
+              <img
+                class="desciption__icon-last"
+                src="./img/stars.svg"
+                alt="иконка звезд"
+              />
+              <p class="review__subtitle-icon">
+                Супер! Я бы заказала съемку снова!
+              </p>
+            </div>
+            <p class="review__subtitle">
+              Хотим выразить огромную благодарность вашей компании! Получили
+              море ощущений, все прошло просто замечательно. Фотки получились
+              великолепные, отдельное спасибо фотографу!
+            </p>
+            <p class="review__subtitle">27 Апреля, 2019г.</p>
+          </div>
+        </div>
+        <div class="review__card">
+          <img class="review__img" src="./img/review_2.png" alt="аватар" />
+          <div>
+            <p class="review__subtitle">Виталий Петров</p>
+            <p class="review__subtitle">Фотограф</p>
+            <div class="review__flex-row">
+              <img
+                class="desciption__icon-last"
+                src="./img/stars.svg"
+                alt="иконка звезд"
+              />
+              <p class="review__subtitle-icon">
+                Супер! Я бы заказал съемку снова!
+              </p>
+            </div>
+            <p class="review__subtitle">
+              Восторг! :) Очень понравилось :) Захватили последний теплый,
+              солнечный октябрьский день :) Впечатлило всё: сам вертолет, взлет,
+              полёт, приземление. Организация полёта отличная. Спасибо!
+            </p>
+            <p class="review__subtitle">19 Апреля, 2019г.</p>
+          </div>
+        </div>
+        <div class="review__card">
+          <img class="review__img" src="./img/review_3.png" alt="аватар" />
+          <div>
+            <p class="review__subtitle">Джим Керри</p>
+            <div class="review__flex-row">
+              <img
+                class="desciption__icon-last"
+                src="./img/stars.svg"
+                alt="иконка звезд"
+              />
+              <p class="review__subtitle-icon">
+                Супер! Я бы заказал съемку снова!
+              </p>
+            </div>
+            <p class="review__subtitle">
+              Круто-круто-круто!!! Отмечали мой ДэРэ. Отлично провели время!!!
+              Кстати закуски были вкусными и сытными))Мы с собой ничего не
+              брали. Сами много фоткались,поэтому воспоминания обалденные!!!)) А
+              еще нам всем напечатали по сертификату воздухоплавателя, правда
+              некоторые ленятся за ним съездить))) Но все равно приятно. Короче,
+              Презентстар – проверено. Оценка: пять!
+            </p>
+            <p class="review__subtitle">19 Апреля, 2019г.</p>
+          </div>
+        </div>
+        <div class="review__container">
+          <a class="review__link">Показать Все (134)</a>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="header__logo footer__logo"></div>
+        <ul class="footer__links">
+          <li>
+            <a class="footer__link">
+              <img
+                class="footer__icon"
+                src="./img/vk.svg"
+                alt="иконка вконтакте"
+              />
+            </a>
+          </li>
+          <li>
+            <a class="footer__link">
+              <img
+                class="footer__icon"
+                src="./img/Facebook.svg"
+                alt="иконка facebook"
+              />
+            </a>
+          </li>
+          <li>
+            <a class="footer__link">
+              <img
+                class="footer__icon"
+                src="./img/Instragram.svg"
+                alt="иконка instagram"
+              />
+            </a>
+          </li>
+          <li>
+            <a class="footer__link footer__link-last">
+              <img
+                class="footer__icon footer__icon-last"
+                src="./img/RU.svg"
+                alt="иконка языковоого обозначения"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__container-last">
+        <img src="./img/MC.svg" alt="иконка мастер кард" class="footer__icon" />
+        <img src="./img/VISA.svg" alt="иконка visa" class="footer__icon" />
+        <div class="footer__block-text">
+          <p class="footer__subtitle">Тех. поддержка: 8(800)700-00-00</p>
+          <p class="footer__subtitle">© 2018 HELYFLY. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

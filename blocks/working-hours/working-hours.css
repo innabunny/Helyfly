@@ -1,0 +1,72 @@
+.working-hours {
+  padding-top: 3%;
+  font-family: "Montserrat", sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.working-hours__title {
+  width: 30%;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(55, 55, 63, 1);
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  padding-bottom: 2%;
+}
+
+.working-hours__card {
+  padding: 3% 2%;
+  width: 70%;
+  max-height: 458px;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid rgba(199, 199, 199, 1);
+}
+.working-hours__flex {
+  display: flex;
+  align-items: center;
+
+  gap: 3%;
+}
+
+.working-hours__flex_between {
+  justify-content: space-between;
+  padding-bottom: 3%;
+}
+.working-hours__subtitle {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(55, 55, 63, 1);
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+}
+
+.working-hours__flex_column {
+  flex-direction: column;
+  align-items: start;
+}
+
+.working-hours__subtitle {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(55, 55, 63, 1);
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.working-hours__subtitle:nth-of-type(2) {
+  font-weight: bold;
+}
+
+.working-hours__btn {
+  cursor: pointer;
+  width: 20%;
+  height: 50px;
+  background-color: transparent;
+  color: rgba(252, 155, 9, 1);
+  border: 2px solid rgba(252, 155, 9, 1);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 17px;
+  border-radius: 3px;
+}

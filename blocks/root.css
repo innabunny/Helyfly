@@ -1,0 +1,13 @@
+.root {
+  width: 100%;
+  max-width: 1920px;
+  font-family: Montserrat, Arial, sans-serif;
+  color: rgba(55, 55, 63, 1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}

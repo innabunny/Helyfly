@@ -1,1 +1,13 @@
 @import url(./vendor/normalize.css);
+@import url(./vendor/montserrat.css);
+@import url(./vendor/root.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/helicopter/helicopter.css);
+@import url(./blocks/description/description.css);
+@import url(./blocks/photo/photo.css);
+@import url(./blocks/about/about.css);
+@import url(./blocks/working-hours/working-hours.css);
+@import url(./blocks/map/map.css);
+@import url(./blocks/review/review.css);
+@import url(./blocks/footer/footer.css);

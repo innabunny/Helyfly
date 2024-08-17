@@ -1,0 +1,85 @@
+.about {
+  padding-top: 3%;
+  
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 3%;
+  justify-content: space-between;
+}
+
+.about__img-heart {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.about__text {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__title {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(55, 55, 63, 1);
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.about__title-last {
+  padding-top: 3%;
+}
+
+.about__subtitle {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(55, 55, 63, 1);
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  padding-top: 3%;
+  font-weight: 400;
+}
+
+.about__subtitle-br {
+  padding-top: 3%;
+}
+
+.about__profile {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  gap: 3%;
+}
+
+.about__img {
+  object-fit: contain;
+  width: 139px;
+  height: 139px;
+}
+
+.about__subtitle-name {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(55, 55, 63, 1);
+  font-size: 18px;
+  line-height: 20px;
+}
+.about__subtitle-prof {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(55, 55, 63, 1);
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.about__link {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(82, 134, 236, 1);
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+}

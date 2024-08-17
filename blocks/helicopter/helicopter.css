@@ -1,0 +1,99 @@
+.helicopter {
+  max-width: 1900px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.helicopter__image {
+  position: relative;
+  box-sizing: border-box;
+  background-image: url(../../img/helimain.png);
+  width: 100%;
+  max-width: 1800px;
+  background-position: center;
+  max-height: 850px;
+  height: 100%;
+  overflow-x: hidden;
+  object-fit: contain;
+}
+
+.helicopter__text-block {
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+
+@media screen and (max-width: 900px) {
+  .helicopter__text-block {
+    left: 10%;
+    top: 10%;
+  }
+}
+
+.helicopter__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  margin: 0;
+  padding-bottom: 3%;
+}
+
+.helicopter__title span {
+  color: rgba(252, 155, 9, 1);
+}
+
+.helicopter__price-block {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  width: 226px;
+  height: 110px;
+  background-image: url("../../img/Rectangle_yellow.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  box-sizing: border-box;
+}
+
+.helicopter__price-image {
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  background-position: center;
+  background-size: 52px 52px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.helicopter__price-text {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.helicopter__price-text span {
+  font-size: 35px;
+  font-weight: 800;
+  display: block;
+}
+
+.helicopter__btn {
+  width: 304px;
+  height: 68px;
+  border: 3px solid rgba(255, 255, 255, 1);
+  border-radius: 3px;
+  padding: 22px 37px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  cursor: pointer;
+}
