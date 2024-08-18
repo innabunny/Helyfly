@@ -47,3 +47,23 @@
   object-fit: contain;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .photo {
+    padding: 3%;
+  }
+  .photo__grid {
+    width: 100%;
+    overflow: scroll;
+    display: flex;
+  }
+  .photo__img {
+    object-fit: contain;
+    width: 240px;
+    height: 100%;
+  }
+  .photo__link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

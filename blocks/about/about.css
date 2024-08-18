@@ -1,6 +1,6 @@
 .about {
   padding-top: 3%;
-  
+
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
@@ -82,4 +82,37 @@
   line-height: 22px;
   text-align: center;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .about__profile {
+    order: -1;
+    padding-bottom: 3%;
+  }
+  .about__subtitle {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .about__subtitle-name {
+    padding-top: 3%;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .about__subtitle-prof {
+    font-size: 14px;
+    line-height: 18%;
+    padding-top: 3%;
+  }
+  .about__link {
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 3%;
+  }
 }

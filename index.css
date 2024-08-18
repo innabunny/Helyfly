@@ -11,3 +11,7 @@
 @import url(./blocks/map/map.css);
 @import url(./blocks/review/review.css);
 @import url(./blocks/footer/footer.css);
+
+* {
+  /* border: 1px solid red; */
+}

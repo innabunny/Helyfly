@@ -11,7 +11,6 @@
   color: rgba(55, 55, 63, 1);
   font-size: 20px;
   line-height: 30px;
-  margin: 0;
   padding-bottom: 2%;
 }
 
@@ -69,4 +68,35 @@
   font-size: 16px;
   line-height: 17px;
   border-radius: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .working-hours {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .working-hours__card {
+    width: 95%;
+  }
+  .working-hours__title {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .working-hours__btn {
+    font-size: 12px;
+    line-height: 16px;
+    height: 40px;
+    width: 40%;
+    margin-top: 3%;
+  }
+  .working-hours__flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 }

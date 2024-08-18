@@ -5,18 +5,23 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  position: relative;
 }
 
 .helicopter__image {
+  margin: 0 auto;
   position: relative;
   box-sizing: border-box;
   background-image: url(../../img/helimain.png);
   width: 100%;
   max-width: 1800px;
+  /* background-position: calc(1900px - 1100px) 0; */
   background-position: center;
+  background-repeat: no-repeat;
   max-height: 850px;
   height: 100%;
-  overflow-x: hidden;
+
+  /* height: 820px; */
   object-fit: contain;
 }
 
@@ -26,14 +31,7 @@
   color: rgba(255, 255, 255, 1);
   position: absolute;
   left: 20%;
-  top: 30%;
-}
-
-@media screen and (max-width: 900px) {
-  .helicopter__text-block {
-    left: 10%;
-    top: 10%;
-  }
+  top: 20%;
 }
 
 .helicopter__title {
@@ -50,7 +48,7 @@
 
 .helicopter__price-block {
   display: flex;
-  gap: 5px;
+  gap: 3%;
   align-items: center;
   justify-content: center;
   width: 226px;
@@ -59,6 +57,8 @@
   background-position: center;
   background-repeat: no-repeat;
   object-fit: contain;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -96,4 +96,74 @@
   font-weight: 800;
   text-align: center;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .helicopter__price-block {
+    width: 140px;
+    height: 60px;
+  }
+  .helicopter__price-text {
+    font-size: 14px;
+  }
+
+  .helicopter__price-text span {
+    font-size: 16px;
+    line-height: 10px;
+  }
+  .helicopter__price-image {
+    width: 20px;
+    height: 20px;
+  }
+  .helicopter__btn {
+    margin-top: 3%;
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+    padding: 10px 10px;
+  }
+  .helicopter__title {
+    line-height: 30px;
+    font-size: 26px;
+  }
+  .helicopter__text-block {
+    left: 10%;
+    top: 20%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .helicopter__price-block {
+    width: 100px;
+    height: 40px;
+  }
+  .helicopter__price-text {
+    font-size: 12px;
+  }
+
+  .helicopter__price-text span {
+    padding-top: 2%;
+    font-size: 14px;
+    line-height: 10px;
+  }
+  .helicopter__price-image {
+    width: 10px;
+    height: 10px;
+  }
+  .helicopter__btn {
+    width: 160px;
+    height: 30px;
+    font-size: 10px;
+    padding: 3px;
+    margin-top: 5%;
+    border: 2px solid rgba(255, 255, 255, 1);
+  }
+  .helicopter__title {
+    width: 50%;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .helicopter__text-block {
+    left: 30%;
+    top: 10%;
+  }
 }
